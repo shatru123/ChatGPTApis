@@ -20,10 +20,12 @@ jobs:
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 6.0.x   
+    - name: Restore dependencies
+      run: dotnet restore ChatGPTApis/ChatGPTApis/ChatGPTApis.csproj       
     - name: Build
       run: dotnet build ChatGPTApis/ChatGPTApis/ChatGPTApis.csproj --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test ChatGPTApis/ChatGPTApis/ChatGPTApis.Tests/ChatGPTApis.Tests.csproj --no-build --verbosity normal
     - name: Publish
-      run: dotnet publish ChatGPTApis/ChatGPTApis.csproj -c Release -o website
+      run: dotnet publish ChatGPTApis/ChatGPTApis/ChatGPTApis.csproj -c Release -o website
  
