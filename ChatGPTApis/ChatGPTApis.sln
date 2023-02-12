@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatGPTApis", "ChatGPTApis\ChatGPTApis.csproj", "{BC69B077-08A7-44AF-90FE-51A8D87A37BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatGPTApis.Tests", "ChatGPTApis.Tests\ChatGPTApis.Tests.csproj", "{C25A1C58-4EA5-485F-A60E-A41F576FD897}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BC69B077-08A7-44AF-90FE-51A8D87A37BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC69B077-08A7-44AF-90FE-51A8D87A37BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC69B077-08A7-44AF-90FE-51A8D87A37BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C25A1C58-4EA5-485F-A60E-A41F576FD897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C25A1C58-4EA5-485F-A60E-A41F576FD897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C25A1C58-4EA5-485F-A60E-A41F576FD897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C25A1C58-4EA5-485F-A60E-A41F576FD897}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
