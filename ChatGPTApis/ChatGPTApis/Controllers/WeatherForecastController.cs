@@ -29,5 +29,11 @@ namespace ChatGPTApis.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet("TestException")]
+        public IActionResult TestException()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
